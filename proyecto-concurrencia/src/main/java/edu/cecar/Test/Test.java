@@ -11,12 +11,15 @@
 package edu.cecar.Test;
 
 import edu.cecar.componentes.Utilidades;
+import edu.cecar.concurencia.StartCalculateSale;
 
 public class Test {
 	
 	public static void main(String[] args) {
 		System.out.println(Utilidades.getNumberProcessor());
 		System.out.println(Utilidades.getNumberCores());
+		
+		
 	}
 
 }
